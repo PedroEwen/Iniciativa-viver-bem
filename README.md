@@ -1,7 +1,10 @@
-# <b>Projeto Vendex</b>
+## About the project
+![image](https://github.com/PedroEwen/Projeto_CashFex/assets/116721969/c6b71489-9e91-41f6-9510-f3096804bbf0)
 
-<i>Sistema de rastreamento de vendas e relatórios para insights comerciais: Mantenha registros detalhados de todas as vendas, permitindo que os usuários visualizem o histórico de compras dos clientes, enquanto gera relatórios simples que destacam as tendências de vendas, produtos populares e clientes frequentes para orientar as estratégias de negócios.</i>
-##
-<h3> Diagramação do banco de dados</h3>
+<i>Sales Tracking and Reporting System for Business Insights: Keep detailed records of all sales, allowing users to view customers' purchase history, while generating simple reports that highlight sales trends, popular products, and repeat customers to guide salespeople. business strategies.</i>
 
-![image](https://github.com/PedroEwen/Projeto_LabInovadores/assets/116721969/7cede235-63b2-45df-8120-e31d91b1e505)
+## Functions
+- [ ]  In-App Dashboards
+- [ ]  Product registration
+- [ ]  Sales report generation
+
