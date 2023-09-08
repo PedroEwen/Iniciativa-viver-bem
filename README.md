@@ -4,8 +4,8 @@
 
 <i>Create software that facilitates the scheduling, attendance and follow-up of psychological consultations online, promoting accessibility, safety and efficiency in the therapeutic process.</i>
 ## Functions
-- [ ] CONSULTATION FORM
-- [ ]  
+- [ ] Inquiry form
+- [ ] Inquiry form in email
 - [ ]  
 ##
 ### Mission:
