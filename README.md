@@ -9,7 +9,9 @@
 - [ ]  
 ##
 ### Mission:
+   Facilitating the growth and success of small and medium-sized businesses through innovative software solutions.
 ### Vision:
+    To be the leading solutions benchmark, recognized for our customer-centric approach and commitment to providing the tools to drive business growth.
 ### Values:
 - Trust
 - Simplicity
