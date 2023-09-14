@@ -1,19 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+    /* Imagem banner */
 .banner {
     width: 100%;
-    height: 97vh;
-    background-image: linear-gradient(rgba(170,170,170,0.75),rgba(170,170,170,0.75)),url(images/Background.jpg);
+    height: 100vh;
+    background-image: linear-gradient(rgba(180,180,180,0.75),rgba(180,180,180,0.75)),url(images/Background.jpg);
     background-size: cover;
+    background-position: center;
 }
 .banner img {
     height: 90px;
 }
+
+/* Navbar */
 .navbar {
-    width: 100%;
+    width: 99.7%;
     margin: auto;
     padding: 2px;
     display:flex;
@@ -28,13 +32,26 @@
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
-    text-transform: uppercase;
+    font-size: 20px;
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+}
+
+/* Parte abaixo da navbar */
+
 .content {
     color: rgb(62, 6, 78);
     width: 37%;
@@ -45,20 +62,28 @@
 }
 .content h2 {
     font-size: 25px;
+    font-weight: bold;
 }
 .content p {
     margin: 20px auto;
     line-height: 27px;
     font-size: 25px;
-    text-align: justify;    
+    text-align: justify;   
+    font-weight:500;
 }
 .content-2 {
-    display: flex;
+    margin-top: 70px;
+    width: 400px;
+    display:flex;
     flex-direction: column;
 }
-.content-item {
-    display: flex;
+.intobox1 {
+    padding-bottom: 30px;
+    display:flex;
+    align-items: center;
+    
 }
-.content-item p {
-    text-align: left;
+.intobox1 h5 {
+    margin-left: 40px;
+    font-size: 20px;
 }
