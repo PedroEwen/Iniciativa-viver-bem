@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <!-- Logo Img -->
+            <div class="logo">
+                <img class="logoimage" src="images/PSIConnect.ico">
+                <span> Psiconnect </span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </div>
+        <section>
+            <div class="forms">
+                <form action="https://formsubmit.co/pedrohenriquewen@gmail.com" method="POST">
+                    <input type="text" name="Paciente" placeholder="Nome completo" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="number" name="Telefone" placeholder="Contato" required>
+                    <input type="date" name="Data" min="2023-10-03" max="2024-01-01" required>
+                    <textarea name="Mensagem" placeholder="Observações" required></textarea>
+                    <input type="hidden" name="_subject" value="Agendamento de consulta!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index/screen_atendimento/index.html">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_cc" value="samuellima080919@gmail.com">
+                    <button type="submit">Enviar</button>
+
+                </form>
+            </div>
+        </section>
+    </div>
+    </div>
+</body>
+
+</html>
