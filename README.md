@@ -7,9 +7,15 @@
 
 <i>Create software that facilitates the scheduling, attendance and follow-up of psychological consultations online, promoting accessibility, safety and efficiency in the therapeutic process.</i>
 ## Functions
+<<<<<<< Updated upstream
 - [X] Inquiry form
 - [X] Inquiry form in email
 - [ ]  
+=======
+- [ ] Inquiry form
+- [ ] Inquiry form in email
+- [ ] Interactive management for actors
+>>>>>>> Stashed changes
 ##
 ### Mission:
    Facilitating the growth and success of small and medium-sized businesses through innovative software solutions.
