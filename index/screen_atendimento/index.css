@@ -72,9 +72,10 @@ textarea {
     border-radius: 10px;
     font-size: 25px;
     resize: none;
+    text-align: justify;
 }
 .forms {
-    width: 100px;
+    width: 500px;
     margin-top: 100px;
 }
 button {
@@ -85,4 +86,30 @@ button {
     margin-left: 10px;
     border:#fff;
     font-size: 25px;
+
+}
+.dataconsulta {
+    margin-left: 15px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 25px;
+}
+.idade {
+    margin-left: 15px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 25px;
+}
+.condicoes {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-left: 15px;
+
+}
+.labeltermos {
+    margin-left: 5px;
+    text-align: justify;
 }
