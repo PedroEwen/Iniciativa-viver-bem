@@ -7,7 +7,7 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(180,180,180,0.75),rgba(180,180,180,0.75)),url(images/Background.jpg);
+    background-image: linear-gradient(rgb(55, 33, 33),rgba(180, 180, 180, 0.321)),url(images/Background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -23,8 +23,8 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(62, 6, 78);
-    box-shadow: 0 4px 2px -2px gray;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 2px -2px rgb(162, 162, 162);
 }
 .navbar ul {
     margin-right: 70px;
@@ -36,7 +36,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(68, 68, 68);
     font-size: 20px;
 }
 .logo {
@@ -44,16 +44,15 @@
     align-items: center;
 }
 .logo span{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
     font-size: 40px;
-    font-style: italic;
-    color: white;
+    color: rgb(85, 85, 85);
 }
 
 /* Parte abaixo da navbar */
 
 .content {
-    color: rgb(62, 6, 78);
+    color: rgb(255, 255, 255);
     width: 37%;
     position: absolute;
     top: 25%;
@@ -61,7 +60,8 @@
     display: block;
 }
 .content h2 {
-    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
     font-weight: bold;
 }
 .content p {
@@ -85,5 +85,21 @@
 }
 .intobox1 h5 {
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 25px;
+}
+.btnAgendar {
+    border-radius: 26px;
+    font-size: 29px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    border: 0px;
+    margin-top: 2px;
+    color:  rgb(85, 85, 85);
+}
+.btnNav {
+    border-radius: 26px;
+    width: 100px;
+   border: 1px 1px;
+   background-color:  rgb(255, 255, 255);
 }
