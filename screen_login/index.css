@@ -23,7 +23,7 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(62, 6, 78);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 2px -2px gray;
 }
 .navbar ul {
@@ -36,52 +36,26 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
+    color: rgb(68, 68, 68);
+    font-size: 20px;
 }
 .logo {
     display: flex;
     align-items: center;
 }
 .logo span{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
     font-size: 40px;
-    font-style: italic;
-    color: white;
+    color: rgb(85, 85, 85);
 }
 
 /* Parte abaixo da navbar */
 
 .content {
-    color: rgb(62, 6, 78);
+    color: rgb(255, 255, 255);
     width: 37%;
     position: absolute;
     top: 25%;
     left: 5%;
     display: block;
-}
-.content h2 {
-    font-size: 25px;
-}
-.content p {
-    margin: 20px auto;
-    line-height: 27px;
-    font-size: 25px;
-    text-align: justify;    
-}
-.content-2 {
-    margin-top: 70px;
-    width: 400px;
-    display:flex;
-    flex-direction: column;
-}
-.intobox1 {
-    padding-bottom: 30px;
-    display:flex;
-    align-items: center;
-    
-}
-.intobox1 h5 {
-    margin-left: 40px;
-    font-size: 20px;
 }
