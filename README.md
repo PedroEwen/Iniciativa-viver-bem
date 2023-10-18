@@ -1,10 +1,5 @@
 # About the project
 
-
-![@Dev_lab](https://github.com/PedroEwen/PSIConnect/assets/116721969/499818a7-fb67-454d-81c8-54f2dcf72175)
-
-
-
 <i>Create software that facilitates the scheduling, attendance and follow-up of psychological consultations online, promoting accessibility, safety and efficiency in the therapeutic process.</i>
 ## Functions
 - [X] Inquiry form
