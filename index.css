@@ -19,7 +19,7 @@
 .navbar {
     width: 99.7%;
     margin: auto;
-    padding: 2px;
+    margin: auto;
     display:flex;
     align-items: center;
     justify-content: space-between;
