@@ -3,105 +3,114 @@
     padding: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
 /* Imagem banner */
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgb(55, 33, 33),rgba(180, 180, 180, 0.321)),url(/images/Background.jpg);
+    background-image: url(/images/Cloudy.svg);
     background-size: cover;
     background-position: center;
-}
-.banner img {
-    height: 90px;
 }
 
 /* Navbar */
 .navbar {
     width: 99.7%;
-    margin: auto;
+    margin: 0;
     padding: 2px;
-    display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 2px -2px gray;
 }
+
+/*ESPAÇAMENTO*/
 .navbar ul {
-    margin-right: 70px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: right;
 }
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-}
+} 
+
+/*LETRAS NAVBAR*/
 .navbar ul li a{
     text-decoration: none;
-    color: rgb(68, 68, 68);
-    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+} 
+
+.navbar button {
+    background-color: transparent;
+    border-color: #fff;
+    width: 90px;
+    border-radius: 26px;
 
 }
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo span{
-    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
-    font-size: 40px;
-    color: rgb(85, 85, 85);
-}
+
+/*CAMPO FORMS*/
 input {
-    border-radius: 50px;
+    border-radius: 30px;
     border: #fff;
     text-align: left;
     margin-left: 10px;
-    margin-top: 25px;
-    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    height: 70px;
     width: 500px;
     font-size: 25px;
 }
-section {
+ .form {
     padding: auto;
     height: 250px;
     padding: 30px;
 }
+
 textarea {
-    margin-top: 20px;
+    margin-top: 5px;
     width: 500px;
-    height: 200px;
+    height: 140px;
     margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 25px;
     resize: none;
     text-align: justify;
+    border: #fff;
 }
+
 .forms {
     width: 500px;
     margin-top: 100px;
 }
-button {
-    background-color: #fff;
-    border-radius: 26px;
-    width: 80px;
-    margin-top: 15px;
-    margin-left: 10px;
-    border:#fff;
-    font-size: 25px;
 
+.forms button {
+    background-color: #F8FFE5;
+    border-radius: 26px;
+    width: 100px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border:#F8FFE5;
+    font-size: 25px;
+    align-items: center;
 }
+
 .dataconsulta {
     margin-left: 15px;
     width: 1000px;
-    margin-top: 10px;
     margin-bottom: -15px;
     font-size: 25px;
 }
+
 .idade {
     margin-left: 15px;
     width: 1000px;
-    margin-top: 10px;
     margin-bottom: -15px;
     font-size: 25px;
 }
+
 .condicoes {
     width: 20px;
     height: 20px;
@@ -109,7 +118,32 @@ button {
     margin-left: 15px;
 
 }
+
 .labeltermos {
     margin-left: 5px;
     text-align: justify;
+}
+
+label {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.aviso p {
+    margin-left: 1600px;
+    text-align: justify;
+    font-size: 25px;
+    border: 2px solid #fff;
+    border-radius: 26px;
+    width: 20%;
+    height: 400px;
+    font-size: 30px;
+    padding: 50px 30px;
+    color: #fff;
+}
+.vaso {
+    margin-top: -200px;
+    margin-left: 1620px;
 }

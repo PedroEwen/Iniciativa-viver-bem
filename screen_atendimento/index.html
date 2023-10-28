@@ -5,32 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/LOGOpsiweb.ico" type="image/x-icon">
-    <title>PSIWEB</title>
+    <title>VIVA BEM</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <div class="banner">
         <div class="navbar">
-            <!-- Logo Img -->
-            <div class="logo">
-                <img class="logoimage" src="/images/LOGOpsiweb.png">
-                <span>PSIWEB</span>
-            </div>
             <ul>
-                <li><a href="/index.html">Home</a></li>
                 <li><a href="#">Sobre</a></li>
+                <li><button><a href="#">Entrar</a></button></li>
             </ul>
         </div>
-        <section>
+        <section class="form">
             <div class="forms">
                 <form action="https://formsubmit.co/pedrohenriquewen@gmail.com" method="POST">
-                    <input type="text" name="Paciente" placeholder=" Nome completo" required>
-                    <input type="email" name="Email" placeholder=" Email" required>
-                    <input type="text" name="Telefone" maxlength="11" placeholder=" Contato" required>
+                    <label for="Paciente">Nome</label> 
+                    <input type="text" name="Paciente" placeholder="  Digite seu nome" required>
+
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" placeholder="  Digite seu email" required>
+
+                    <label for="Telefone">Telefone</label>
+                    <input type="text" name="Telefone" maxlength="11" placeholder=" (123) 12345-6789" required>
+
+                    <label for="Cpf">CPF</label>
+                    <input type="text" name="Cpf" maxlength="11" placeholder=" 123.456.789-11">
+
+                    <label for="Data">Data de nascimento</label>
                     <input type="date" name=" Data" min="2023-10-03" max="2024-01-01" required>
-                    <input type="text" name="Cpf" maxlength="11" placeholder=" 000.000.000-00">
-                    <textarea name="Mensagem" placeholder="Observações" required></textarea>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="Mensagem" placeholder="  Observações" required></textarea>
+
                     <input type="checkbox" name="Termo" value="Aceito" class="condicoes" required>
                     <label for="Termo" class="labeltermos"> Declaro que li e concordo com os termos e condições de privacidade.</label>
                     <br>
@@ -39,14 +46,28 @@
 
                     <input type="hidden" name="_subject" value="Agendamento de consulta!">
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://psiconnect-red.vercel.app/screen_agradecimento/index.html">
+                    <input type="hidden" name="_next" value="">
                     <input type="hidden" name="_template" value="table">
                     <input type="hidden" name="_cc" value="samuellima080919@gmail.com">
                 </form>
             </div>
         </section>
+        <div class="vaso">
+            <img src="/images/vaso-de-planta.png" alt="vaso-de-planta">
+        </div>
+        <section>
+            <div class="aviso">
+                <p>Oferecemos serviços de consultoria psicológica tanto para o âmbito empresarial quanto para o pessoal.
+                <br>
+                <br>
+                Nossos atendimentos estão disponíveis de segunda a sexta-feira, das 8:00 às 17:00, com exceção dos feriados.
+                <br>
+                <br>
+                Para menores de idade, a realização da consulta médica requer a autorização de um responsável legal.
+                </p>
+            </div>
+        </section>
     </div>
     </div>
 </body>
-
 </html>
