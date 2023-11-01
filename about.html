@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+    <nav>
+        <a href="Index.html"><img src="/images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="">LOGIN</a></li>
+                <li><a href="">REDES</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box, box">
+        <h1><i>Sobre nós</i>
+    </div>
+   </section>
+
+   <section class="about-us">
+        <div class="row">
+            <div class="about-col, col1">
+                <h1> Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, quas maiores velit tenetur voluptas illo ut repellendus aliquam, eius perferendis, iusto amet illum omnis accusantium minima quaerat voluptatibus? Accusantium totam doloremque impedit. Quam, adipisci sapiente modi aspernatur animi nam ea velit sunt aliquid et cum consequatur rerum natus quis enim magni commodi explicabo iste est tempora facilis! Reiciendis placeat mollitia, debitis harum omnis rerum nobis corporis dolorem, asperiores distinctio ex!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti atque eum porro necessitatibus tempore qui optio et ipsam soluta possimus placeat aliquam nobis voluptates enim numquam quod, dolorem quo explicabo. Vitae saepe reiciendis facilis vero dolores tenetur, aperiam maxime, voluptates perspiciatis suscipit eos magni quidem molestiae cupiditate sequi et omnis ratione. Quo iste doloremque dolore expedita consectetur quia voluptatum corporis, impedit, ullam incidunt rem, minus odit harum dolor. Et, enim.</p>
+            </div>
+            <div class="about-col"><img src="images/cafeteria.png"></div>
+        </div>
+   </section>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
