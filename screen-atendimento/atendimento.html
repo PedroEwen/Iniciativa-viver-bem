@@ -76,18 +76,20 @@
             </div>
         </div>
         <div class="contact-col">
-            <form action="./form-handler.php" method="POST">
+            <form action="https://formsubmit.co/iniciativa.viver.bem@gmail.com" method="POST">
                 <input type="text" name="name" placeholder="Nome completo" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="text"  name="cpf" placeholder="CPF" required>
                 <input type="text"  name="subject" placeholder="Assunto" required>
                 <textarea  rows="8" name="message" placeholder="Mensagem"></textarea required>  
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+
                 <button type="submit" class="hero-btn">Enviar mensagem</button>
             </form>
         </div>
     </section>
-
-
     <script>
         var navLinks = document.getElementById("navLinks")
         function showMenu() {
