@@ -4,33 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Psi</title>
-    <link rel="stylesheet" href="atendimento.css">
+    <title>INICIATIVA V.B</title>
+    <link rel="icon" href="/images/logo-favicon.png">
+    <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inder&family=Poppins:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <section class="sub-header">
         <nav>
-            <a href="Index.html"><img src="/images/logo.png"></a>
+            <div class="part1">
+        <a href="index.html"><img class="logo" src="/images/logo-pradireita.png "></a>
+        <div class="part1h1">
+            <img id="iniciativa" src="/images/INICIATIVA.png">
+            <img id="viverbem" src="/images/VIVER BEM.png   ">
+        </div>
+    </div>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/screen-sobre/about.html">SOBRE</a></li>
                     <li><a href="">LOGIN</a></li>
-                    <li><a href="">REDES</a></li>
-
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box, box">
-            <h1><i>Contact Us</i>
+            <h1><i>Conecte-se Conosco</i>
         </div>
     </section>
 
@@ -54,25 +62,26 @@
                 <div>
                     <i class="fa fa-phone"></i>
                     <span>
-                        <h5>+55 (81) 3484-0424</h5>
-                        <p>Atendimento de segunda a sexta, de 7:00 ás 18:00 horas</p>
+                        <h5>Atendimento de segunda a sexta, das 7:00 às 18:00.</h5>
+                        <p>+55 (81) 3484-0424</p>
                     </span>
                 </div>
                 <div>
                     <i class="fa fa-envelope-o"></i>
                     <span>
-                        <h5>nossaempresa@outlook.com.br</h5>
-                        <p>Nosso email para contato</p>
+                        <h5> Parcerias e Negócios:</h5>
+                        <p>inciativa.viver.bem@gmail.com</p>
                     </span>
                 </div>
             </div>
         </div>
         <div class="contact-col">
-            <form action="form-handler.php" method="post">
+            <form action="./form-handler.php" method="POST">
                 <input type="text" name="name" placeholder="Nome completo" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="text"  name="cpf" placeholder="CPF" required>
-                <textarea  rows="8" name="message" placeholder="Mensagem"></textarea>
+                <input type="text"  name="subject" placeholder="Assunto" required>
+                <textarea  rows="8" name="message" placeholder="Mensagem"></textarea required>  
                 <button type="submit" class="hero-btn">Enviar mensagem</button>
             </form>
         </div>
