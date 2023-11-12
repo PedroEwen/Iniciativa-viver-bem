@@ -171,9 +171,6 @@ nav .fa{
     display: none;
 }
 
-.forms { /*Checar, acho que não existe*/
-    min-height: 100vh;
-}
 /*TELA DE ATENDIMENTO*/
 .location {
     width: 80%;
