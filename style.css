@@ -152,18 +152,19 @@ nav img{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(255, 255, 255);
+    border: 1px solid #f3f3f3;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
+    background: rgb(0, 135, 11);
     position: relative;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .hero-btn:hover{
-    border: 1px solid #3f6bc9;
-    background: #3f6bc9;
+    border: 1px solid #13aa48;
+    background: #13aa48;
     transition: 1s;
 }
 

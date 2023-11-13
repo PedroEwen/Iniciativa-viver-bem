@@ -2,6 +2,18 @@
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js"
   import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js"
 
+  const input = document.getElementById("cpf")
+
+  input.addEventListener("keypress", () => {
+    let inputLength = input.value.length
+// 123.456.789-11
+    if(inputLength === 3 || inputLength === 7) {
+      input.value += "." 
+    } else if(inputLength === 11) {
+      input.value += "-"
+    }
+  })
+  
   const firebaseConfig = {
     apiKey: "AIzaSyCLR2j6WAalg4BR6HcEJOyPnSLpfB-XRaI",
     authDomain: "form-contact-vb.firebaseapp.com",
