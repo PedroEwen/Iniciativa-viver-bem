@@ -135,6 +135,7 @@ nav img{
 .about-col {
     flex-basis: 48%;
     padding: 30px 2px;
+    text-align: center;
 }
 .about-col img {
     width: 100%;
@@ -159,6 +160,7 @@ nav img{
     background: rgb(0, 135, 11);
     position: relative;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .hero-btn:hover{
@@ -171,8 +173,9 @@ nav .fa{
     display: none;
 }
 
-
-
+.forms { /*Checar, acho que não existe*/
+    min-height: 100vh;
+}
 /*TELA DE ATENDIMENTO*/
 .location {
     width: 80%;
@@ -260,161 +263,6 @@ nav .fa{
         font-size: 38px;
         margin-bottom: 50px;
     }
-    .about-col img {
-      display: none;
-    }
-    .about-col {
-        padding: 30px 2px;
-        text-align: center;
-    }
-}
-
-/*Registro*/
-
-
-
-.container {
-    width: 80%;
-    height: 80vh;
-    display: flex;
-   
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
-}
-
-
-.form {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    padding: 3rem;
-    margin: auto;
-}
-
-.form-header {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.login-button {
-    display: flex;
-    align-items: center;
-}
-
-.login-button button {
-    border: none;
-    background-color: #058c29f1;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.login-button button:hover {
-    background-color: #058c29f1;
-}
-
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
-}
-
-.form-header h1::after {
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
-    background-color: #058c29f1;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
-}
-
-.input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
-}
-
-.input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-}
-
-.input-box input {
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
-    font-size: 0.8rem;
-}
-
-.input-box input:hover {
-    background-color: #eeeeee75;
-}
-
-.input-box input:focus-visible {
-    outline: 1px solid #058c29f1;
-}
-
-.input-box label,
-.gender-title h6 {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
-.input-box input::placeholder {
-    color: #000000be;
-}
-
-.gender-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 .5rem;
-}
-
-.gender-input {
-    display: flex;
-    align-items: center;
-}
-
-.gender-input input {
-    margin-right: 0.35rem;
-}
-
-.gender-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
-.continue-button button {
-    width: 100%;
-    margin-top: 2.5rem;
-    border: none;
-    background-color: #058c29f1;
-    padding: 0.62rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.continue-button button:hover {
-    background-color: #058c29f1;
-}
-
-.continue-button button a {
-    text-decoration: none;
-    font-size: 0.93rem;
-    font-weight: 500;
-    color: #fff;
 }
 
 
@@ -422,113 +270,6 @@ nav .fa{
 
 
 
-/*login*/
-
-
-
-.form-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 450px;
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
-    backdrop-filter: blur(15px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-h2{
-    font-size: 2em;
-    color: #fff;
-    text-align: center;
-}
-.inputbox{
-    position: relative;
-    margin: 30px 0;
-    width: 310px;
-    border-bottom: 2px solid #fff;
-}
-.inputbox label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    color: #fff;
-    font-size: 1em;
-    pointer-events: none;
-    transition: .5s;
-}
-input:focus ~ label,
-input:valid ~ label{
-top: -5px;
-}
-.inputbox input {
-    width: 100%;
-    height: 50px;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    padding:0 35px 0 5px;
-    color: #fff;
-}
-.inputbox ion-icon{
-    position: absolute;
-    right: 8px;
-    color: #fff;
-    font-size: 1.2em;
-    top: 20px;
-}
-.forget{
-    margin: -15px 0 15px ;
-    font-size: .9em;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;  
-}
-
-.forget label input{
-    margin-right: 3px;
-    
-}
-.forget label a{
-    color: #fff;
-    text-decoration: none;
-}
-.forget label a:hover{
-    text-decoration: underline;
-}
-button{
-    width: 100%;
-    height: 40px;
-    border-radius: 40px;
-    background: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 1em;
-    font-weight: 600;
-}
-.register{
-    font-size: .9em;
-    color: #fff;
-    text-align: center;
-    margin: 25px 0 10px;
-}
-.register p a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-}
-.register p a:hover{
-    text-decoration: underline;
-}
 
 
 

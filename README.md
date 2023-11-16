@@ -1,16 +1,43 @@
-# About the project
+# Iniciativa Viver Bem
+![LOGO](./assets/logo-editor.png) 
 
-<i>Create software that facilitates the scheduling, attendance and follow-up of psychological consultations online, promoting accessibility, safety and efficiency in the therapeutic process.</i>
-## Functions
-- [X] Inquiry form
-- [X] Inquiry form in email
-- [ ] Interactive management for actors
-##
-### Mission:
-   Facilitating the growth and success of small and medium-sized businesses through innovative software solutions.
-### Vision:
-   To be the leading solutions benchmark, recognized for our customer-centric approach and commitment to providing the tools to drive business growth.
-### Values:
-- Trust
-- Simplicity
-- Innovation
+
+
+# Sobre o projeto
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+
+É uma aplicação web desenvolvida em HTML, CSS e Javascript com integração ao banco dados Firebase, onde são armazenados os dados de consultas e credenciais de acesso dos usuários.
+
+Consiste em um Website que os pacientes podem realizar agendamento de consultas com o nosso cliente, e o mesmo, recebe a solicitação de consulta no email, onde poderá responder de forma prática, rápida e com mais conforto.
+
+Acesso ao projeto: [Website](https://iniciativa-viver-bem.vercel.app)
+
+# Layout Web
+![LOGO](./assets/tela-web.png) 
+
+# Funcionalidades do projeto
+- [X] Cadastro de consultas
+
+- [X]  Intregação com banco de dados
+
+- [X] Consultas integradas ao e-mail
+
+# Tecnologias utilizadas 
+## Front-End
+- HTML / CSS / Javascript
+## Back-End
+- Javascript
+## Implantação em produção
+- Hospedadem: Vercel
+- Banco de dados: Firebase
+- API: FormSubmit
+  
+# Autores
+- Pedro Henrique dos Santos Ewen - [Linkedin](https://www.linkedin.com/in/pedroewen-sec/) | [Github](https://github.com/PedroEwen)
+- Samuel Lima Castilho Jr. - [Linkedin](https://www.linkedin.com/in/samuel-lima-51ba64276/) | [Github](https://github.com/SamuelJRL)
+- Pablo Thiago Melo - [Linkedin](https://www.linkedin.com/in/pablo-thiago/) | [Github](https://github.com/PThiago1)
+
+# Próximos passos
+- [ ]  Login
+
+- [ ] Tela de gerenciamento
