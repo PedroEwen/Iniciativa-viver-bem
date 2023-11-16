@@ -35,5 +35,6 @@ Consiste em um Website que os pacientes podem realizar agendamento de consultas 
 - Pablo Thiago Melo - [Linkedin](https://www.linkedin.com/in/pablo-thiago/) | [Github](https://github.com/PThiago1)
 
 # Próximos passos
-[] - Login
-[] - Tela de gerenciamento
+[ ] - Login
+
+[ ] - Tela de gerenciamento
