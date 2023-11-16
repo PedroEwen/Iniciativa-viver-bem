@@ -3,8 +3,10 @@
 ![LOGO](./assets/logo-editor.png) 
 
 
+
 # Sobre o projeto
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+
 É uma aplicação web desenvolvida em HTML, CSS e Javascript com integração ao banco dados Firebase, onde são armazenados os dados de consultas e credenciais de acesso dos usuários.
 
 Consiste em um Website que os pacientes podem realizar agendamento de consultas com o nosso cliente, e o mesmo, recebe a solicitação de consulta no email, onde poderá responder de forma prática, rápida e com mais conforto.
