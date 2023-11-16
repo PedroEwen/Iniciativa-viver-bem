@@ -15,11 +15,11 @@ Consiste em um Website que os pacientes podem realizar agendamento de consultas 
 ![LOGO](./assets/tela-web.png) 
 
 # Funcionalidades do projeto
-[X] - Cadastro de consultas
+- [X] Cadastro de consultas
 
-[X] - Intregação com banco de dados
+- [X]  Intregação com banco de dados
 
-[X] - Consultas integradas ao e-mail
+- [X] Consultas integradas ao e-mail
 
 # Tecnologias utilizadas 
 ## Front-End
@@ -37,6 +37,6 @@ Consiste em um Website que os pacientes podem realizar agendamento de consultas 
 - Pablo Thiago Melo - [Linkedin](https://www.linkedin.com/in/pablo-thiago/) | [Github](https://github.com/PThiago1)
 
 # Próximos passos
-[ ] - Login
+- [ ]  Login
 
-[ ] - Tela de gerenciamento
+- [ ] Tela de gerenciamento
