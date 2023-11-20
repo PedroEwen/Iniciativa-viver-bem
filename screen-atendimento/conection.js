@@ -42,4 +42,3 @@
     .then(doc => console.log('Document criado com sucesso - ID:', doc.id))
     .catch(console.log)
  })
- function
