@@ -137,13 +137,9 @@ nav img{
     padding: 30px 2px;
     text-align: center;
 }
-.about-col img {
-    width: 100%;
-    border-radius: 10px;
-}
+
 .col1 {
-    width: 50%;
-    padding-right: 40px;
+ font-size: 20px;
 }
 .col1 h1 {
     padding-bottom: 26px;
